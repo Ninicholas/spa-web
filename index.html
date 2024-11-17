@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/nico-framework.css">
+    <link href="https://fonts.googleapis.com/css2?family=Romanesco&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="barra menu">
+            <ul>
+                <li><a href="">Promociones</a></li>
+                <li><a href="">Fotos</a></li>
+                <li><a href="">Servicios</a></li>
+                <li><a href="">Mapa</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="usuario miniatura">
+            <div class="icono">
+                <img src="images/user.png" alt="Imagen de usuario">
+                <p>Mi cuenta</p>
+            </div>
+            <div class="idioma miniatura">
+                <p>ES</p>
+                <img src="images/flag.png" alt="Bandera español">
+                <img id="arrow" src="images/arrow.png" alt="Flecha hacia abajo">
+            </div>
+        </div>
+    </header>
+    <main>
+
+        <section>
+            <div class="fondo">
+                <h1 class="t-rom titulo-general">SPA - Jodos</h1>
+                <h2 class="t-2 descripcion">Regálate un momento de paz y<br>conciente a tu piel en el mejor lugar</h2>
+            </div>
+        </section>
+        <section>
+            <div class="citas-container">
+                <div class="citas">
+                    <h2 class="menu">Reserva tu cita:</h2>
+                    <input type="text" class="placeholder menu">
+                </div>
+                <div class="citas">
+                    <h2 class="menu">Código Promocional:</h2>
+                    <input type="text" class="placeholder menu" placeholder="CODIGO">
+                </div>
+            </div>
+        </section>
+
+        <section class="planes">
+            <div class="card">
+                <div class="borde-2">
+                    <h1 class="titulo-plan">Masaje de Pies</h1>
+                </div>
+                <div class="imagen-plan"><img src="images/pies.png" alt="Masaje de Pies"></div>
+                <div class="descripcion-plan normal">Esta es una descripción de la opción en cuestión .....</div>
+                <div class="d-flex jc-sb">
+                    <div class="t-2 f-left">$65</div>
+                    <div class="borde-1 "><a class="texto-btn menu" href="">Reservar</a></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="borde-2">
+                    <h1 class="titulo-plan">Masaje relajante</h1>
+                </div>
+                <div><img src="images/relajante.png" alt="Masaje relajante"></div>
+                <div class="descripcion-plan normal">Esta es una descripción de la opción en cuestión .....</div>
+                <div class="d-flex jc-sb">
+                    <div class="t-2 f-left">$60</div>
+                    <div class="borde-1 "><a class="texto-btn menu" href="">Reservar</a></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="borde-2">
+                    <h1 class="titulo-plan">Masaje con bambú</h1>
+                </div>
+                <div><img src="images/bambu.png" alt="Masaje con bambú"></div>
+                <div class="descripcion-plan normal">Esta es una descripción de la opción en cuestión .....</div>
+                <div class="d-flex jc-sb">
+                    <div class="t-2 f-left">$58</div>
+                    <div class="borde-1 "><a class="texto-btn menu" href="">Reservar</a></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="membresias">
+
+            <div class="t-2 pt-3 c-h">Hazte socio y prueba nuestros beneficios</div>
+            <div class="membresia-contenedor">
+                <div class="membresia">
+                    <div class="borde-circular">
+                        <div class="imagen-membresia"><img src="images/gold.png" alt="GOLD"></div>
+                    </div>
+                    <div class="t-2 pb-3">GOLD</div>
+                    <div class="borde-1 "><a class="texto-btn menu " href="">VER CONDICIONES</a></div>
+                    <div class="descripcion-membresia miniatura pt-2">
+                        <ul>
+                            <li>Gimnasio</li>
+                            <li>Piscina</li>
+                            <li>Todos los tratamientos</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="membresia">
+                    <div class="borde-circular">
+                        <div class="imagen-membresia"><img src="images/premium.png" alt="PREMIUM"></div>
+                    </div>
+                    <div class="t-2 pb-3">PREMIUM</div>
+                    <div class="borde-1 "><a class="texto-btn menu " href="">VER CONDICIONES</a></div>
+                    <div class="descripcion-membresia miniatura pt-2">
+                        <ul>
+                            <li>Gimnasio</li>
+                            <li>Todos los tratamientos</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="membresia">
+                    <div class="borde-circular">
+                        <div class="imagen-membresia"><img src="images/plate.png" alt="PLATE"></div>
+                    </div>
+                    <div class="t-2 pb-3">PLATE</div>
+                    <div class="borde-1 "><a class="texto-btn menu " href="">VER CONDICIONES</a></div>
+                    <div class="descripcion-membresia miniatura pt-2">
+                        <ul>
+                            <li>Tratamientos faciales</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="barra menu">
+                <ul>
+                    <li><a href="">Políticas de cookies</a></li>
+                    <li><a href="">Aviso Legal</a></li>
+                    <li><a href="">Protección de Datos</a></li>
+                    <li><a href="">Mapa del Sitio</a></li>
+                </ul>
+            </div>
+            <div class="redes">
+                <div class="menu t-primario">Síguenos en</div>
+                <div class="imagen-redes"><img src="images/rs_facebook.png" alt="Logo Facebook"></div>
+                <div class="imagen-redes"><img src="images/rs_twiter.png" alt="Logo Twiter"></div>
+                <div class="imagen-redes"><img src="images/rs_youtube.png" alt="Logo Youtube"></div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
