@@ -111,7 +111,7 @@ header {
 
 .planes {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 100px 0px 80px 0px;
     gap: 134px;
     width: 100%;
@@ -157,12 +157,15 @@ header {
 
 .membresia-contenedor {
     display: flex;
-    padding: 50px 0px;
+    padding: 50px 0px 50px 100px;
     justify-content: space-evenly;
+    align-items: baseline;
+    gap: 80px;
 }
 
 .membresia {
-    width: 250px;
+    width: 300px;
+    padding: 60px 0px 60px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -197,12 +200,19 @@ header {
     height: 125px;
 }
 
+.membresia .borde-1{
+    padding: 20px 90px;
+}
 
+.borde-1 .texto-btn{
+    white-space: nowrap;
+}
 
 .descripcion-membresia ul {
     display: flex;
     flex-direction: column;
     padding-left: 30px;
+    white-space: nowrap; 
 }
 
 
@@ -212,12 +222,15 @@ footer {
     width: 100%;
     display: flex;
     align-items: center;
+    
 }
 
 .footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+     
+    width: 100%; 
 }
 
 .footer div ul li a {
@@ -227,7 +240,7 @@ footer {
 .redes{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 30px;
 }
 
@@ -241,3 +254,11 @@ footer {
 }
 
 
+.footer .barra ul  {
+    gap: 90px;
+}
+
+
+.texto-btn.menu {
+    font-weight: bold;
+}

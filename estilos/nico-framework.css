@@ -8,7 +8,6 @@
 .t-2 {
     font-family: 'Inter';
     font-weight: 600;
-    /* SemiBold */
     font-size: 32px;
 }
 
@@ -252,3 +251,8 @@
 }
 
 
+.pt-5 {
+    padding-top: 50px
+}
+
+.fo-negrita{font-weight: bold;}
